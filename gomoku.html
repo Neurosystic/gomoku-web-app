@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gomoku Online</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Gomoku Game</h1>
+            <p>By: Sophie Chen</p>
+        </div>
+        <div id="right">
+            <p>Username: <span id="usernameDisplay"></span> </p>
+            <p>Opponent: <span id="opponentDisplay"></span> </p>
+            <div id="command">
+                <button id="startBtn">Start Game</button>
+                <button id="quitBtn" disabled>Quit Game</button>
+            </div>
+            <div id="messageDIV">
+                <h4>Message Dialog</h4>
+                <p id="messageWindow"></p>
+            </div>
+        </div>
+
+        <div id="left">
+            <h3>Rules</h3>
+            <p>Players alternate turns placing a stone of their color on an empty intersection. Black plays first. The
+                winner is the first player to form an unbroken line of five stones of their color horizontally,
+                vertically, or diagonally. If the board is completely filled and no one can make a line of 5 stones,
+                then the game ends in a draw.
+                <br>
+                <em>Extracted from: <a
+                        href="https://en.wikipedia.org/wiki/Gomoku#:~:text=13%20External%20links-,Rules,horizontally%2C%20vertically%2C%20or%20diagonally.">Wikipedia</a></em>
+            </p>
+            <br>
+            <h3>How to Play</h3>
+            <p>
+            <ol>
+                <li>Click on the "Start Game" button on the right to pair with another online player</li>
+                <li>Once connected, the message dialog will indicate whether it is your turn or not. If yes, then place
+                    a stone and wait for opponents response, otherwise, wait paitently for opponent to make a move
+                    before taking your turn</li>
+                <li>Repeat step two until either player quits or forms an unbroken line of five stones</li>
+            </ol>
+            </p>
+        </div>
+        <div id="middle">
+            <canvas id="gameBoard" width="450px" height="450px"></canvas>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

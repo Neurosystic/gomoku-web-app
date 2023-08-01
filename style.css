@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    background-color: #EAE6DF;
+    color: #2D2D2B;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 5px #B0B0B0, -2px -2px 2px #B0B0B0;
+    cursor: pointer;
+    background-color: #B8926A;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        " h h h"
+        "l m r";
+}
+
+#left {
+    background-color: #D4C8BE;
+    margin: 20px;
+    padding: 20px;
+    grid-area: l;
+}
+
+#right {
+    background-color: #D4C8BE;
+    padding: 20px;
+    grid-area: r;
+    margin: 20px;
+}
+
+#left h3 {
+    text-align: center;
+}
+
+#left *,
+#right * {
+    background-color: inherit;
+}
+
+#left p {
+    padding: 10px 0px;
+    font-size: small;
+}
+
+#left ol {
+    font-size: small;
+    padding-left: 10px;
+}
+
+#right button {
+    background-color: #2D2D2B;
+    color: #EAE6DF;
+    padding: 10px;
+}
+
+#right>* {
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+#right p {
+    background-color: #EAE6DF;
+}
+
+#header {
+    background-color: #EAE6DF;
+    padding: 20px;
+    grid-area: h;
+    text-align: center;
+}
+
+#messageDIV {
+    background-color: #EAE6DF;
+    text-align: center;
+}
+
+#messageDIV>* {
+    padding: 10px 0px;
+}
+
+#middle {
+    padding: 20px 0px;
+    grid-area: m;
+}
+
+#command {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button:disabled, button[disabled]{
+    background-color: #B0B0B0 !important;
+}
