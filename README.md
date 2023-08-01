@@ -56,7 +56,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 <ol>
-  <li>Change the "project-database" file extension to .db</li>
+  <li>Begin by launching the ServerConsole application to start hosting the game server</li>
   <li>Run the project-database.db in SQLite Database and load the SQL script from the project, to the .db file</li>
   <li>In your IDE terminal run the following command: </li>
 
