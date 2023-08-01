@@ -6,10 +6,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center" id="readme-top">Gomuku </h3>
+  <h3 align="center" id="readme-top">Gomuku Two-Player Web Application</h3>
 
   <p align="center">
-    An online platform where individuals share their thoughts, experiences,and interests revolved around nature and travel
+    An online web application that allows two users to compete against one another 
     <br />
   </p>
 </div>
@@ -33,7 +33,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -41,25 +40,22 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![Everywhereist Homepage Screen Shot](https://github.com/sophc0366/everywhereist-blogging-system/blob/main/public/readme/home.jpeg)
+![Gomoku Homepage Screen Shot](https://github.com/Neurosystic/gomoku-web-app/blob/main/images/interface.jpeg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 * Javascript
-* Node.js
 * HTML
-* CSS
-* Handlebars
-* Express.js
-* SQLite Database
+* C#
+* .NET
+* Socket programming
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 <ol>
-  
   <li>Change the "project-database" file extension to .db</li>
   <li>Run the project-database.db in SQLite Database and load the SQL script from the project, to the .db file</li>
   <li>In your IDE terminal run the following command: </li>
