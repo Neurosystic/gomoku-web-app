@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sophc\\Documents\\2023 Sem1 UoA\\COMPSCI 711\\A2\\ServerConsole\\ServerConsole.csproj": {}
+    "C:\\Users\\sophc\\Downloads\\gomuku-web-app\\Server\\ServerConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sophc\\Documents\\2023 Sem1 UoA\\COMPSCI 711\\A2\\ServerConsole\\ServerConsole.csproj": {
+    "C:\\Users\\sophc\\Downloads\\gomuku-web-app\\Server\\ServerConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sophc\\Documents\\2023 Sem1 UoA\\COMPSCI 711\\A2\\ServerConsole\\ServerConsole.csproj",
+        "projectUniqueName": "C:\\Users\\sophc\\Downloads\\gomuku-web-app\\Server\\ServerConsole.csproj",
         "projectName": "ServerConsole",
-        "projectPath": "C:\\Users\\sophc\\Documents\\2023 Sem1 UoA\\COMPSCI 711\\A2\\ServerConsole\\ServerConsole.csproj",
+        "projectPath": "C:\\Users\\sophc\\Downloads\\gomuku-web-app\\Server\\ServerConsole.csproj",
         "packagesPath": "C:\\Users\\sophc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sophc\\Documents\\2023 Sem1 UoA\\COMPSCI 711\\A2\\ServerConsole\\obj\\",
+        "outputPath": "C:\\Users\\sophc\\Downloads\\gomuku-web-app\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sophc\\AppData\\Roaming\\NuGet\\NuGet.Config",
