@@ -58,7 +58,7 @@
 <ol>
   <li>Begin by launching the ServerConsole application stored in the Server folder to start hosting the game server</li>
   <li>Run two or more html game file in your chosen browser</li>
-  <li>In your IDE terminal run the following command: </li>
+  <li></li>
 
   ```sh
   npm start
