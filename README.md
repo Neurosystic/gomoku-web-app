@@ -6,10 +6,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center" id="readme-top">Gomuku Two-Player Web Application</h3>
+  <h3 align="center" id="readme-top">Gomoku Two-Player Web Application</h3>
 
   <p align="center">
-    An online web application that allows two users to compete against one another 
+    An online web application that mimics a two-player gomoku game with users connecting to the same server
     <br />
   </p>
 </div>
@@ -56,8 +56,8 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 <ol>
-  <li>Begin by launching the ServerConsole application to start hosting the game server</li>
-  <li>Run the project-database.db in SQLite Database and load the SQL script from the project, to the .db file</li>
+  <li>Begin by launching the ServerConsole application stored in the Server folder to start hosting the game server</li>
+  <li>Run two or more html game file in your chosen browser</li>
   <li>In your IDE terminal run the following command: </li>
 
   ```sh
