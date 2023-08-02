@@ -28,9 +28,6 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
   </ol>
@@ -58,39 +55,27 @@
 <ol>
   <li>Begin by launching the ServerConsole application stored in the Server folder to start hosting the game server</li>
   <li>Run two or more html game file in your chosen browser</li>
-  <li></li>
-
-  ```sh
-  npm start
-  ```
+  <li>To begin the game, click "Start Game" on the web application and the server will match you with existing players who are also waiting for a match</li>
 </ol>
 
-### Prerequisites
-* npm
-  ```sh
-  npm install 
-  ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Individuals are able to create an account in this blogging system. Having an account allows users to like and comment on articles, subscribe to authors, and publish their own articles. 
-![Everywhereist Register Screen Shot](https://github.com/sophc0366/everywhereist-blogging-system/blob/main/public/readme/register.jpeg)
-![Everywhereist Publish Screen Shot](https://github.com/sophc0366/everywhereist-blogging-system/blob/main/public/readme/publish.jpeg)
+The web application will pair players to begin a Gomoku game once user  clicks on the "Start Game" button. The application also allow users to quit a proceeding game by clicking the "Quit Game" button.
+![Gomoku Play Screen Shot](https://github.com/Neurosystic/gomoku-web-app/blob/main/images/play.png)
 
 <p>
  <br/> 
 </p>
 
-The blogging system allows logged-in users to read and interact with the article (i.e. like, comment, subscribe to the author)
-![Everywhereist Article Screen Shot](https://github.com/sophc0366/everywhereist-blogging-system/blob/main/public/readme/article.jpeg)
-
+The application will automatically announce the winner (if any) and terminate the game. 
+![Gomoku End Screen Shot](https://github.com/Neurosystic/gomoku-web-app/blob/main/images/end.png)
 <p>
  <br/> 
 </p>
 
-The system also allows users to view their subscriptions, followers, published articles, and performance metrics (if any). Logged-in users will also be notified if their published articles have received likes or comment or been subscribed to.
-![Everywhereist Profile Screen Shot](https://github.com/sophc0366/everywhereist-blogging-system/blob/main/public/readme/profile.jpeg)
-![Everywhereist Notification Screen Shot](https://github.com/sophc0366/everywhereist-blogging-system/blob/main/public/readme/notification.jpeg)
+Console log are displayed on the system's server console application which consist of all connected user's activities, game moves, and status.
+![Gomoku Server Screen Shot](https://github.com/Neurosystic/gomoku-web-app/blob/main/images/server.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
